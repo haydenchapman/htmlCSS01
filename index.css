@@ -1,0 +1,80 @@
+html{
+    background-image:url(/demo/pics/aedrian-cFAV84e3IAo-unsplash.jpg);
+    background-size: fill;
+}
+p{
+    text-align: center;
+    color: #ddd;
+    font-size: x-large;
+}
+title{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+.topnav {
+    background-color: gray;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    box-sizing: flex;
+}
+  /* Change the color of links on hover */
+.topnav button:hover {
+    background-color: #ddd;
+    color: rgb(217, 108, 108);
+  }
+  
+  /* Add a color to the active/current link */
+.topnav button.active {
+    background-color: #045aaa;
+    font-weight: bold;
+    color: rgb(222, 81, 81);
+  }
+
+head{
+    font-size: 36px;
+    color: whitesmoke;
+    text-align: center;
+}
+section{
+    font-size: 36px;
+    color: #f76e6e;
+    text-align: center;
+    box-sizing: flex;
+
+}
+h1, h2, h6{
+    color: #fdeeee;
+    text-align: center;
+    font-style: bold;
+    box-sizing: flex;
+}
+img {
+    border: auto;
+    margin-bottom: -5vh;
+    padding: 3vh;
+    align-self: center;
+    align-content: center;
+    width: 10vw;
+    box-sizing: flex;
+}
+
+button{
+    color: #000000;
+}
+.items .button{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+.items button:hover {
+    background-color: #ddd;
+    color: rgb(245, 81, 81);
+  }
+  
+  /* Add a color to the active/current link */
+.items button.active {
+    background-color: #045aaa;
+    color: rgb(255, 0, 0);
+  }
